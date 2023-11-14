@@ -1,3 +1,6 @@
+@import './home.css';
+
+
 *{
   margin: 0;
   padding: 0;
@@ -18,4 +21,12 @@ body{
   background:#faf6ed ;
   color: #222;
   -webkit-font-smoothing: antialiased;
+  display: grid;
+  grid-template-columns: 1fr 120px minmax(300px, 800px) 1fr;
 }
+@media (max-width: 700px) {
+  body {
+    grid-template-columns: 1fr;
+  }
+}
+
