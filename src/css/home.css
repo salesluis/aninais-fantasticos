@@ -1,3 +1,4 @@
+
 .menu {
   grid-column: 3 / 5;
   margin-top: 2rem;
@@ -65,7 +66,7 @@
 }
 
 .animais-lista {
-  height: 370px;
+  height: 500px;
   overflow-y: scroll;
   grid-column: 2;
 }
@@ -81,6 +82,9 @@
 }
 .animais-lista::-webkit-scrollbar-track {
   background: #faf6ed;
+}
+.animais-lista li{
+  cursor: pointer;
 }
 
 .animais-descricao {
@@ -100,6 +104,7 @@
   margin-top: 2rem;
   margin-bottom: 0.5rem;
   color: #e54;
+  cursor: pointer;
 }
 .faq-lista dt::before {
   content: "";
